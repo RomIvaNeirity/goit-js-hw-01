@@ -1,4 +1,5 @@
-console.log('ppp')
+function getElementWidth(content, padding, border) { return parseFloat(content) + 2 * parseFloat(padding) + 2 * parseFloat(border);
+}
 
 
 console.log(getElementWidth("50px", "8px", "4px")); // 74
